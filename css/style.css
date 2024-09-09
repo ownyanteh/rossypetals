@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: roboto, sans-serif;
+}
+header{
+    background-image: url(../assets/images/pexels-designecologist-1005058.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+}
+
+.nav-bar{
+    background-color: #445828b2;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    flex-direction: row;
+}
+.nav-bar div img{
+    padding-left: 20px;
+}
+.nav-items{ 
+width: 70%;
+margin: auto;
+/* padding: 15px; */
+text-align: right;
+}
+
+
+
+.nav-items a{
+    /* text-align: right; */
+    text-decoration: none;
+    padding: 15px;
+    
+    
+}
+
+.text-white{
+    color:white
+}
+

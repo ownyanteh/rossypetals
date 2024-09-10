@@ -6,23 +6,25 @@
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-     url(../assets/images/pexels-designecologist-1005058.jpg);
+        url(../assets/images/pexels-designecologist-1005058.jpg);
     background-size: cover;
     height: 100vh;
     width: auto;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
+    background-attachment: fixed;
+
 }
 
-.tinted-image {
-    background-image:
+/* .tinted-image { */
+    /* background-image: */
         /* top, transparent red */
-        linear-gradient(rgba(255, 0, 0, 0.45),
-            rgba(255, 0, 0, 0.45)),
+        /* linear-gradient(rgba(255, 0, 0, 0.35), */
+            /* rgba(255, 0, 0, 0.35)), */
         /* your image */
-        url(image.jpg);
-}
+        /* url(image.jpg); */
+/* } */
 
 /* .overlay::before{
     content: "";
@@ -43,6 +45,12 @@ header {
     padding: 10px;
     flex-direction: row;
     z-index: 5;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* left: 0;
+    right: 0; */
+
 }
 
 .nav-bar div img {
@@ -69,7 +77,88 @@ header {
 .text-white {
     color: white
 }
-.overlay .text-white{
+
+.overlay .text-white {
     text-align: right;
     padding-top: 199px;
+}
+
+.overlay .header-text p {
+    font-size: 18px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    padding-bottom: 20px;
+}
+
+.overlay .header-text h1 {
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    padding-bottom: 20px;
+}
+
+.overlay .header-text button {
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #334220;
+    text-align: center;
+    font-size: 25px;
+    padding: 25px;
+    width: 300px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.overlay .header-text button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.overlay .header-text button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.overlay .header-text button:hover span {
+    padding-right: 25px;
+}
+
+.overlay .header-text button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.overlay .header-text {
+    padding-right: 100px;
+}
+
+/* Fisrt Section */
+.container1{
+    padding-top: 50px;
+}
+.container1 .head-text {
+font-size: 28px;
+text-align: center;
+font-weight: 600;
+padding-bottom: 20px;
+}
+.container1 hr{
+    width: 25%;
+    margin: auto;
+    border: none;
+    height: 1px;
+    background-color: #334220;
+    border-radius: 10px;
+    /* padding: 0.5px; */
+}
+.text-container1{
+    padding-bottom: 20px;
 }

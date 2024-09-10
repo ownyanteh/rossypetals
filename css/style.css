@@ -145,10 +145,11 @@ header {
     padding-top: 50px;
 }
 .container1 .head-text {
-font-size: 28px;
+font-size: 40px;
 text-align: center;
 font-weight: 600;
 padding-bottom: 20px;
+color: #334220;
 }
 .container1 hr{
     width: 25%;
@@ -161,4 +162,25 @@ padding-bottom: 20px;
 }
 .text-container1{
     padding-bottom: 20px;
+}
+.sub-container1{
+    display: flex;
+    margin: auto;
+    padding: 100px;
+}
+.sub-container1 div{
+    width: 33%;
+    padding: 25px;
+}
+.sub-container1 div img{
+width: 100%;
+border-top-left-radius: 70px;
+border-bottom-right-radius: 50px;
+border-top-right-radius: 20px;
+filter: drop-shadow(20px 20px 10px #334220 );
+}
+.sub-container1 div p{
+    padding-bottom: 50px;
+    text-align: justify;
+  text-justify: inter-word;
 }

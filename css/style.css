@@ -1,10 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: roboto, sans-serif;
 }
-header{
-    background-image: url(../assets/images/pexels-designecologist-1005058.jpg);
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+     url(../assets/images/pexels-designecologist-1005058.jpg);
     background-size: cover;
     height: 100vh;
     width: auto;
@@ -13,37 +15,61 @@ header{
     margin: auto;
 }
 
-.nav-bar{
+.tinted-image {
+    background-image:
+        /* top, transparent red */
+        linear-gradient(rgba(255, 0, 0, 0.45),
+            rgba(255, 0, 0, 0.45)),
+        /* your image */
+        url(image.jpg);
+}
+
+/* .overlay::before{
+    content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(0,0,0,.5);
+  z-index: -1;
+} */
+
+.nav-bar {
     background-color: #445828b2;
     display: flex;
     height: 10vh;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
     margin: auto;
     padding: 10px;
     flex-direction: row;
+    z-index: 5;
 }
-.nav-bar div img{
+
+.nav-bar div img {
     padding-left: 20px;
 }
-.nav-items{ 
-width: 70%;
-margin: auto;
-/* padding: 15px; */
-text-align: right;
+
+.nav-items {
+    width: 70%;
+    margin: auto;
+    /* padding: 15px; */
+    text-align: right;
 }
 
 
 
-.nav-items a{
+.nav-items a {
     /* text-align: right; */
     text-decoration: none;
     padding: 15px;
-    
-    
+
+
 }
 
-.text-white{
-    color:white
+.text-white {
+    color: white
 }
-
+.overlay .text-white{
+    text-align: right;
+    padding-top: 199px;
+}

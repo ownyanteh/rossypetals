@@ -76,21 +76,33 @@ header {
 .nav-items2 a {
     text-decoration: none;
     padding: 15px;
-    transition: color 0.5s ease-in-out
+    transition: color all 1s ease;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
 }
 .nav-items2 a:hover{
     color: white;
     background-color: #364520;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    transition: background-color 0.5s ease-in-out
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
 }
 .nav-items a:hover{
     color: #364520;
     background-color: white;
     border-top-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    transition: background-color 0.5s ease-in-out
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
 }
 
 
@@ -98,7 +110,7 @@ header {
     /* text-align: right; */
     text-decoration: none;
     padding: 15px;
-    transition: color 0.5s ease-in-out
+    transition: all 1s ease;
 
 }
 

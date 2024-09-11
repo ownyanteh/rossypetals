@@ -184,3 +184,12 @@ filter: drop-shadow(20px 20px 10px #334220 );
     text-align: justify;
   text-justify: inter-word;
 }
+
+.image{
+    transition: transform 0.3s ease;
+}
+
+.image:hover{
+    transform: scale(1.1);
+}
+

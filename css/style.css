@@ -108,7 +108,7 @@ header {
 
 .overlay .text-white {
     text-align: right;
-    padding-top: 199px;
+    padding-top: 40vh;
 }
 
 .overlay .header-text p {
@@ -274,7 +274,7 @@ header {
     /* z-index: 5; */
     /* position: fixed; */
     /* top: 0; */
-    width: 100%;
+    /* width: 100%; */
 }
 .text-green{
     color: #364520;
@@ -295,4 +295,65 @@ grid-row-gap: 0px;
 }
 .image-grid div{
     margin: 0;
+}
+.gridcontainer{
+    position: relative;
+    overflow: hidden;
+    /* width: 50%; */
+}
+.gridoverlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #364520b3;
+}
+.gridtext{
+    color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.gridcontainer:hover .gridoverlay{
+    opacity: 0.9;
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     border-radius: 25px;
+     
+}
+.gridcontainer .gridoverlay{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+.gridcontainer:hover .gridimage{
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+     transform:scale(1.25);
+     border-radius: 25px;
+     
+}
+.gridcontainer .gridimage{
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
 }

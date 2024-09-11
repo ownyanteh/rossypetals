@@ -19,12 +19,12 @@ header {
 }
 
 /* .tinted-image { */
-    /* background-image: */
-        /* top, transparent red */
-        /* linear-gradient(rgba(255, 0, 0, 0.35), */
-            /* rgba(255, 0, 0, 0.35)), */
-        /* your image */
-        /* url(image.jpg); */
+/* background-image: */
+/* top, transparent red */
+/* linear-gradient(rgba(255, 0, 0, 0.35), */
+/* rgba(255, 0, 0, 0.35)), */
+/* your image */
+/* url(image.jpg); */
 /* } */
 
 /* .overlay::before{
@@ -142,17 +142,19 @@ header {
 }
 
 /* Fisrt Section */
-.container1{
+.container1 {
     padding-top: 50px;
 }
+
 .container1 .head-text {
-font-size: 40px;
-text-align: center;
-font-weight: 600;
-padding-bottom: 20px;
-color: #334220;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 20px;
+    color: #334220;
 }
-.container1 hr{
+
+.container1 hr {
     width: 25%;
     margin: auto;
     border: none;
@@ -161,43 +163,55 @@ color: #334220;
     border-radius: 10px;
     /* padding: 0.5px; */
 }
-.text-container1{
+
+.text-container1 {
     /* padding-bottom: 20px; */
 }
-.sub-container1{
+
+.sub-container1 {
     display: flex;
     margin: auto;
     padding: 100px;
 }
-.sub-container1 div{
+
+.sub-container1 div {
     width: 33%;
     padding: 25px;
 }
-.sub-container1 div img{
-width: 100%;
-border-top-left-radius: 70px;
-border-bottom-right-radius: 50px;
-border-top-right-radius: 20px;
-filter: drop-shadow(20px 20px 10px #334220 );
-}
-.sub-container1 div p{
-    padding-bottom: 50px;
-    text-align: justify;
-  text-justify: inter-word;
+
+.sub-container1 div img {
+    width: 100%;
+    border-top-left-radius: 70px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 20px;
+    filter: drop-shadow(20px 20px 10px #334220);
 }
 
-.image{
+.sub-container1 div p {
+    padding-bottom: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.image {
     transition: transform 0.3s ease;
 }
 
-.image:hover{
+.image:hover {
     transform: scale(1.1);
 }
-.bold-text{
-    font-size: larger;
+
+.bold-text {
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    margin: auto;
+
 }
-.container2{
-    background-image: linear-gradient(rgba(0,0,0,0.5) rgba(0,0,0,0.5)), url(../assets/images/section-bg.jpg);
+
+.container2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/images/section-bg.jpg);
     background-size: cover;
     height: 100vh;
     width: auto;
@@ -205,4 +219,8 @@ filter: drop-shadow(20px 20px 10px #334220 );
     background-position: center;
     margin: auto;
     background-attachment: fixed;
+    /* z-index: 0; */
+}
+.text-container2{
+    margin: auto;
 }

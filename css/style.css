@@ -385,9 +385,9 @@ grid-row-gap: 0px;
     /* width: 100%; */
 }
 .container3{
-    background-image: linear-gradient(rgba(35,56,6,1), rgba(0,0,0,0.6)),url(../assets/images/container3bg.jpg);
+    background-image: linear-gradient(rgba(35,56,6,0.8), rgba(0,0,0,0.3)),url(../assets/images/container3bg.jpg);
     background-size: cover;
-    height: 70vh;
+    height: 100vh;
     width: auto;
     background-repeat: no-repeat;
     background-position: center;
@@ -395,8 +395,20 @@ grid-row-gap: 0px;
     background-attachment: fixed;
     z-index: 1;
 }
-.container3 div p{
+.container3 div .testimonial{
     margin: auto;
     padding: 100px;
     text-align: center;
+}
+article div{
+    width: 25%;
+    background-color: #364520cb;
+    height: 50vh ;
+    border-radius: 50px 2px 50px 2px;
+}
+article{ 
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+   
 }

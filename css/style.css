@@ -387,11 +387,16 @@ grid-row-gap: 0px;
 .container3{
     background-image: linear-gradient(rgba(35,56,6,1), rgba(0,0,0,0.6)),url(../assets/images/container3bg.jpg);
     background-size: cover;
-    height: 50vh;
+    height: 70vh;
     width: auto;
     background-repeat: no-repeat;
     background-position: center;
     margin: auto;
     background-attachment: fixed;
     z-index: 1;
+}
+.container3 div p{
+    margin: auto;
+    padding: 100px;
+    text-align: center;
 }

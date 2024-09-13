@@ -492,4 +492,6 @@ article {
 .contact-section{
     height: 70vh;
     background-color: antiquewhite;
+    margin: auto;
+    justify-content: center;
 }

@@ -58,6 +58,11 @@ header {
 .nav-bar div img {
     padding-left: 20px;
 }
+.nav-bar div p {
+    padding-left: 25px;
+    color: white;
+    letter-spacing: 0.43rem;
+}
 
 .nav-items {
     width: 70%;
@@ -494,4 +499,23 @@ article {
     background-color: antiquewhite;
     margin: auto;
     justify-content: center;
+    /* width: 100vw; */
 }
+
+.contact-section-div{
+    /* display: flex; */
+    width: 75%;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 5rem;
+    /* justify-content: space-evenly; */
+    /* width: 100vw; */
+    display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-column-gap: 20px;
+grid-row-gap: 0px;
+}
+
+.contact-div1 { grid-area: 1 / 1 / 2 / 2; }
+.contact-div2 { grid-area: 1 / 2 / 2 / 4; }
+.contact-div3 { grid-area: 1 / 4 / 2 / 5; }
